@@ -4,6 +4,8 @@ A modern, production-ready React application for exploring countries around the 
 
 This project demonstrates how to structure a React Router (v7) app using services, hooks, and components while handling loading states, caching, errors, and performance optimizations properly.
 
+**Live Demo:** https://world-explorer-bice.vercel.app/
+
 ---
 
 ## ✨ Features
