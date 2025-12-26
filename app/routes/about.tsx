@@ -111,13 +111,22 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center px-4 w-full">
             <Link
               to="/countries"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200"
+              className="
+                inline-flex items-center justify-center gap-3 
+                w-full sm:w-auto px-8 py-4 sm:px-6 sm:py-3
+                bg-blue-600 text-white font-bold rounded-2xl sm:rounded-full
+                shadow-lg shadow-blue-200/50 
+                sm:hover:bg-blue-500 
+                active:scale-95 active:bg-blue-800
+                transition-all duration-200
+                -webkit-tap-highlight-color-transparent
+              "
             >
-              Start Exploring
-              <span className="text-lg">→</span>
+              <span className="text-base">Start Exploring</span>
+              <span className="text-xl transition-transform group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </footer>

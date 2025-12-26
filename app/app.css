@@ -10,3 +10,7 @@
     transform: translateX(100%);
   }
 }
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
